@@ -1,21 +1,16 @@
-import Card from "./../../components/Card";
-
-import getDownloadCount from "./../../utils/github/getDownloadCount";
+import NpmProject from "./../NpmProject";
+import GithubProject from "./../GithubProject";
 
 class CardContainer extends React.Component {
-  state = {
-    downloads: 0,
-  };
-
-  async componentDidMount() {
-    const downloads = await getDownloadCount(this.props.repo);
-    this.setState({
-      downloads,
-    });
-  }
-
   render() {
-    return <Card {...this.props} downloads={this.state.downloads} />;
+    const { type, ...props } = this.props;
+
+    switch (type) {
+      case "npm":
+        return <NpmProject {...props} />;
+      case "github":
+        return <GithubProject {...props} />;
+    }
   }
 }
 

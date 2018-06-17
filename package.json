@@ -1,5 +1,5 @@
 {
-  "name": "chrome-splashscreen",
+  "name": "launchery",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,11 +9,12 @@
     "start": "next start"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vernon de Goede <info@vernondegoede.com>",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
     "classnames": "^2.2.6",
+    "download-stats": "^0.3.4",
     "next": "^6.0.3",
     "node-sass": "^4.9.0",
     "react": "^16.4.1",
