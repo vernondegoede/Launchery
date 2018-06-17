@@ -1,0 +1,33 @@
+$grey-extra-light: #f1f2f6;
+$footer-height: 50px;
+
+.card-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: $footer-height;
+  border-top: 1px solid $grey-extra-light;
+  list-style: none;
+  display: flex;
+}
+
+.card-footer__item {
+  width: calc(100% / 3);
+  font-size: 14px;
+}
+
+.card-footer__item:not(:last-child) {
+  border-right: 1px solid $grey-extra-light;
+}
+
+.card-footer__item a {
+  display: block;
+  height: $footer-height;
+  width: 100%;
+  padding-top: 19px;
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 500;
+}

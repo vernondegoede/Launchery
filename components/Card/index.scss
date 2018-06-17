@@ -1,0 +1,46 @@
+$black: #1b2435;
+$grey: #909499;
+$grey-light: #b2b7be;
+
+.card {
+  background: #fff;
+  border-radius: 4px;
+  height: 375px;
+  width: 275px;
+  display: block;
+  text-align: center;
+  padding-top: 40px;
+  position: relative;
+  box-shadow: 0 2px 6px 1px rgba(221, 211, 211, 0.5);
+}
+
+.card__icon {
+  height: 85px;
+  width: 85px;
+}
+
+.card__name {
+  margin: 40px auto 5px;
+  font-size: 27px;
+  color: $black;
+  font-weight: 600;
+}
+
+.card__repo {
+  font-size: 18px;
+  color: $grey;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.card__downloads {
+  font-size: 33px;
+  margin-top: 25px;
+}
+
+.card__downlads-subtitle {
+  font-size: 18px;
+  color: $grey;
+  font-weight: 400;
+}

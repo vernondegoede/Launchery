@@ -1,0 +1,47 @@
+// Calibre
+
+// Light - Calibre Light
+@font-face {
+    font-family: 'Calibre';
+    font-weight: 300;
+    src:
+      url('/static/calibre/CalibreWeb-Light.woff2') format('woff2'),
+      url('/static/calibre/CalibreWeb-Light.woff') format('woff');
+  }
+  
+  // Normal - Calibre Regular
+  @font-face {
+    font-family: 'Calibre';
+    font-weight: normal;
+    src:
+      url('/static/calibre/CalibreWeb-Regular.woff2') format('woff2'),
+      url('/static/calibre/CalibreWeb-Regular.woff') format('woff');
+  }
+  
+  // Semibold - Calibre Semibold
+  @font-face {
+    font-family: 'Calibre';
+    font-weight: 800;
+    src:
+      url('/static/calibre/CalibreWeb-Semibold.woff2') format('woff2'),
+      url('/static/calibre/CalibreWeb-Semibold.woff') format('woff');
+  }
+  
+  // Bold - Calibre Medium
+  @font-face {
+    font-family: 'Calibre';
+    font-weight: bold;
+    src:
+      url('/static/calibre/CalibreWeb-Medium.woff2') format('woff2'),
+      url('/static/calibre/CalibreWeb-Medium.woff') format('woff');
+  }
+  
+  // Bold - Calibre Bold
+  @font-face {
+    font-family: 'Calibre';
+    font-weight: 900;
+    src:
+      url('/static/calibre/CalibreWeb-Bold.woff2') format('woff2'),
+      url('/static/calibre/CalibreWeb-Bold.woff') format('woff');
+  }
+  

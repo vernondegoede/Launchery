@@ -1,0 +1,18 @@
+.card-grid {
+  margin: 145px auto;
+  width: 690px;
+}
+
+.card-grid__item {
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 140px;
+}
+
+.card-grid__item:nth-child(odd) .card-grid__item-inner {
+  margin-right: 70px;
+}
+
+.card-grid__item:nth-child(even) .card-grid__item-inner {
+  margin-left: 70px;
+}

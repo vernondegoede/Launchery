@@ -1,0 +1,59 @@
+@import "./normalize.scss";
+@import "./variables.scss";
+@import "./fonts.scss";
+
+/**
+ * Base styles
+ */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #f6f7fb;
+  font-family: $font-family-default;
+}
+
+/* stylelint-disable */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* stylelint-enable */
+
+dl,
+ul,
+ol,
+dl {
+  margin-top: 0;
+  margin-bottom: $default-line-height + em;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea {
+  color: #111;
+  font-family: $font-family-default;
+  font-weight: 300;
+  font-size: 21px;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+svg {
+  vertical-align: middle;
+}
