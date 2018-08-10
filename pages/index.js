@@ -9,8 +9,8 @@ const projects = [
     downloads: "250,000",
     icon: "http://vernondegoede.com/static/open-source/caption.png",
     type: "github",
-    githubRepo: "https://github.com/defringe/verminal",
     downloadUrl: "https://getcaption.co",
+    downloadUrl: "https://hyper.is/plugins/verminal",
   },
   {
     title: "verminal",
@@ -20,7 +20,7 @@ const projects = [
     type: "npm",
     countType: "monthly",
     githubRepo: "https://github.com/gielcobben/caption",
-    downloadUrl: "https://hyper.is/plugins/verminal",
+    githubRepo: "https://github.com/defringe/verminal",
   },
 ];
 
