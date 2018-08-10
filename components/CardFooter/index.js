@@ -4,7 +4,9 @@ const CardFooter = ({ actions }) => (
   <ul className="card-footer">
     {actions.map(({ href, name }) => (
       <li className="card-footer__item" key={`action-${name}`}>
-        <a href={href}>{name}</a>
+        <a href={href} target="_blank" rel="nofollow noopener">
+          {name}
+        </a>
       </li>
     ))}
   </ul>

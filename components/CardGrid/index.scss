@@ -1,18 +1,34 @@
 .card-grid {
-  margin: 145px auto;
-  width: 690px;
+  margin-top: 70px;
+  
+  @media (min-width: 960px) {
+    width: 690px;
+    margin: 145px auto;
+  }
 }
 
 .card-grid__item {
-  width: 50%;
   display: inline-block;
   margin-bottom: 140px;
+  width: 100%;
+
+  @media (min-width: 960px) {
+    width: 50%;
+  }
 }
 
 .card-grid__item:nth-child(odd) .card-grid__item-inner {
-  margin-right: 70px;
+  margin: 0 auto;
+
+  @media (min-width: 960px) {
+    margin-right: 70px;
+  }
 }
 
 .card-grid__item:nth-child(even) .card-grid__item-inner {
-  margin-left: 70px;
+  margin: 0 auto;
+
+  @media (min-width: 960px) {
+    margin-left: 70px;
+  }
 }
